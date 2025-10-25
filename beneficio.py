@@ -77,7 +77,7 @@ with aba2:
     st.markdown("""
         <style>
         .streamlit-expanderHeader, .stSlider label, .stSlider div[data-testid="stSliderValue"] {
-            font-size: 2rem !important;
+            font-size: 5rem !important;
         }
         </style>
     """, unsafe_allow_html=True)
