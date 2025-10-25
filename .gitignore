@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+*.cache
+*.pyo
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# PyCharm project settings
+.idea/
+
+# Environment variables
+*.env
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Test and coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+test-results.xml
+junit.xml
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Misc
+.DS_Store
+Thumbs.db
