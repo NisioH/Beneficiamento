@@ -74,6 +74,14 @@ with aba1:
 # --- ABA 2: Simulação ---
 with aba2:
     st.markdown("## 📅 Simulador de Data de Término")
+    st.markdown("""
+        <style>
+        .streamlit-expanderHeader, .stSlider label, .stSlider div[data-testid="stSliderValue"] {
+            font-size: 2rem !important;
+        }
+        </style>
+    """, unsafe_allow_html=True)
+
     simulacao_dia = st.slider(
         "Simule a produtividade diária (fardos/dia)",
         min_value=0,
