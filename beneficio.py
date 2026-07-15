@@ -8,7 +8,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-inicio_beneficio = datetime(2025, 7, 29)
+inicio_beneficio = datetime(2026, 7, 29)
 hoje = datetime.today()
 
 
@@ -35,7 +35,7 @@ with aba1:
     with col2:
         total_beneficiado = df["Beneficiado"].sum()
         media_por_dia = total_beneficiado / dias_uteis if dias_uteis > 0 else 0
-        st.metric("Média/Dia", f"{media_por_dia:.1f} fardos")
+        st.metric("Média/Dia", f"{media_por_dia:.1f} Fardos")
 
     st.divider()
 
