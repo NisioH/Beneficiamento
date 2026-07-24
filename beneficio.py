@@ -8,7 +8,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-inicio_beneficio = datetime(2026, 7, 29)
+inicio_beneficio = datetime(2026, 7, 23)
 hoje = datetime.today()
 
 
