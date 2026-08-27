@@ -8,7 +8,9 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-inicio_beneficio = datetime(2026, 7, 23)
+df = pd.read_excel("TesteOdair.xlsx")
+
+inicio_beneficio = df["InicioBeneficio"].iloc[0]
 hoje = datetime.today()
 
 
@@ -20,7 +22,7 @@ def dias_trabalhados(inicio, fim):
 
 dias_uteis = dias_trabalhados(inicio_beneficio, hoje)
 
-df = pd.read_excel("TesteOdair.xlsx")
+
 df["Fardos Restantes"] = df["FardaoColhido"] - df["Beneficiado"]
 
 aba1, aba2 = st.tabs(["📋 Dados Atuais", "📅 Simulação de Término"])
